@@ -14,6 +14,13 @@
 
     <!-- Login progress -->
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.55"
+        app:srcCompat="@mipmap/sporklogo" />
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -80,11 +87,10 @@
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imageView5"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1.09"
-        app:srcCompat="@mipmap/sporklogo" />
+        android:text="Register" />
 
 </LinearLayout>
