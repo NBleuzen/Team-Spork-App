@@ -93,12 +93,8 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="Register" />
-=======
-        android:layout_weight="1.09"
+        android:text="Register"
         android:focusedByDefault="true"
         app:srcCompat="@mipmap/sporklogo" />
->>>>>>> master
 
 </LinearLayout>
