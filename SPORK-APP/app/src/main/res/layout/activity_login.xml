@@ -95,6 +95,7 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:focusedByDefault="true"
+        android:textStyle="bold"
         app:srcCompat="@mipmap/sporklogo" />
 
 </LinearLayout>
