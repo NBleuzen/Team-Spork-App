@@ -24,9 +24,15 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".HomePage"
             android:label="@string/title_activity_login" />
         <activity android:name=".Register"></activity>
+=======
+            android:name=".AdminCreateForm"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".HomePage"></activity>
+>>>>>>> master
     </application>
 
 </manifest>
