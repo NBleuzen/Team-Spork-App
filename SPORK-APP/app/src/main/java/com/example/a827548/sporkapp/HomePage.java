@@ -26,6 +26,12 @@ public class HomePage extends AppCompatActivity {
                 case R.id.navigation_notifications:
                     mTextMessage.setText(R.string.title_notifications);
                     return true;
+                case R.id.navigation_admins:
+                    mTextMessage.setText("admins");
+                    return true;
+                case R.id.navigation_roster:
+                    mTextMessage.setText("roster");
+                    return true;
             }
             return false;
         }
