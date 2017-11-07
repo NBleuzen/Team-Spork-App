@@ -90,11 +90,11 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonregister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
         android:focusedByDefault="true"
+        android:text="Register"
         android:textStyle="bold"
         app:srcCompat="@mipmap/sporklogo" />
 

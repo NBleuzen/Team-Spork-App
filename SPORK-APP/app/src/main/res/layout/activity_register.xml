@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.a827548.sporkapp.Register">
 
+    <Button
+        android:id="@+id/returntologin"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Return To Login"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.944" />
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -49,8 +61,12 @@
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:text="Register"
-        tools:layout_editor_absoluteY="416dp"
-        tools:layout_editor_absoluteX="8dp" />
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.782" />
 
     <AutoCompleteTextView
         android:id="@+id/email"
@@ -61,7 +77,11 @@
         android:maxLines="1"
         android:singleLine="true"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.457" />
 
     <EditText
         android:id="@+id/password"
@@ -75,6 +95,10 @@
         android:maxLines="1"
         android:singleLine="true"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="318dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.608" />
 
 </android.support.constraint.ConstraintLayout>
