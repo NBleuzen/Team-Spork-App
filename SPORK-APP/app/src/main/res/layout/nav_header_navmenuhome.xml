@@ -18,7 +18,7 @@
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/sporklogo"
+        app:srcCompat="@mipmap/ic_launcher"
         android:layout_weight="2.22" />
 
     <TextView
