@@ -15,11 +15,11 @@
     <!-- Login progress -->
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.55"
-        app:srcCompat="@mipmap/sporklogo" />
+        android:layout_weight="0.77"
+        app:srcCompat="@drawable/ic_sporkfinal1" />
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -68,7 +68,7 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/prompt_password"
+                android:hint="Password"
                 android:imeActionId="@+id/login"
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeOptions="actionUnspecified"
