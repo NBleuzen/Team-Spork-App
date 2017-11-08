@@ -96,6 +96,6 @@
         android:focusedByDefault="true"
         android:text="Register"
         android:textStyle="bold"
-        app:srcCompat="@mipmap/sporklogo" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
 </LinearLayout>
