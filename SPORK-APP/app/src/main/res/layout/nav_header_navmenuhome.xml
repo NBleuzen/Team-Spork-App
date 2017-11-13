@@ -32,6 +32,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="www.Teamspork.com" />
+        android:autoLink="web"
+        android:text="http://teamspork.com/"
+        android:textColor="@android:color/holo_blue_bright" />
 
 </LinearLayout>
