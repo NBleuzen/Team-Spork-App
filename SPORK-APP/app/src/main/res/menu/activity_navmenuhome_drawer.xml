@@ -4,19 +4,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@mipmap/sporklogo"
+            android:icon="@mipmap/ic_launcher"
             android:title="Roster" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@mipmap/sporklogo"
+            android:icon="@mipmap/ic_launcher"
             android:title="Images" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@mipmap/sporklogo"
+            android:icon="@mipmap/ic_launcher"
             android:title="Slideshow" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@mipmap/sporklogo"
+            android:icon="@mipmap/ic_launcher"
             android:title="Tools" />
     </group>
 
@@ -24,11 +24,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@mipmap/sporklogo"
+                android:icon="@mipmap/ic_launcher"
                 android:title="Share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@mipmap/sporklogo"
+                android:icon="@mipmap/ic_launcher"
                 android:title="Send" />
         </menu>
     </item>
